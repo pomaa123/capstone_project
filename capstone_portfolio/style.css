@@ -1,0 +1,32 @@
+.lead {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    padding-top: 5mm;
+}
+.rounded-lg-3 {
+    border-radius: 50%;
+}
+.list-unstyled li {
+    padding-bottom: 3mm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.exp li{
+    font-size: large;
+}
+.place {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+body {
+  background: linear-gradient(300deg, #4F0C76, #C44DD6, #E1B3FE);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.gradient-background {
+    background-color: white;
+}
+.relevant_project .album .container{
+    max-width: 100% !important;
+    width: 100% !important;
+}
