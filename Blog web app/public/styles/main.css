@@ -1,0 +1,49 @@
+.small-img {
+    width: 40px;
+}
+
+.content-input {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #3586ff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.content-input:focus {
+  border: 2px solid #3586ff;
+}
+
+textarea {
+  height: 300px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+.create {
+  margin-top: 50px;
+  max-width: 700px;
+}
+
+.content-submit {
+  width: 100%;
+  background: #3586ff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
