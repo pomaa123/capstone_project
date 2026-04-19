@@ -35,6 +35,8 @@ app.get("/create-post", (req,res) => {
 app.post("/signup", (req, res) => {
      savedUserEmail=req.body["email"];
      savedPassword=req.body["password"];
+     console.log(savedUserEmail);
+     console.log(savedPassword);
     res.render("success.ejs");
 })
 
